@@ -16,5 +16,13 @@ namespace Calculadora
         {
             InitializeComponent();
         }
-    }
+        private int Raio()
+        {
+            return int.Parse(txtRaio.Text);
+        }
+                private void btnCalcular_Click(object sender, EventArgs e)
+        {
+            txtArea.Text = (Math.PI*(Raio()^2)).ToString();
+        }
+    } 
 }

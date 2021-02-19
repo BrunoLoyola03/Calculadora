@@ -16,7 +16,7 @@ namespace Calculadora
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Exercicio5());
+            Application.Run(new Menu());
         }
     }
 }

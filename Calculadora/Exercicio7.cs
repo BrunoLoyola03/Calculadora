@@ -10,20 +10,24 @@ using System.Windows.Forms;
 
 namespace Calculadora
 {
-    public partial class Exercicio5 : Form
+    public partial class Exercicio7 : Form
     {
-        public Exercicio5()
+        public Exercicio7()
         {
             InitializeComponent();
         }
-        private decimal Metro()
+        private int Lado()
         {
-            return decimal.Parse(txtMetro.Text); 
+            return int.Parse(txtLado.Text);
         }
-        
+        private int Area()
+        {
+            return int.Parse(txtArea.Text);
+        }
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            txtCentimetro.Text = (Metro() * 100).ToString();
+            txtArea.Text = (Lado() * Lado()).ToString();
+            txtArea2.Text = (Area() * 2).ToString();
         }
     }
 }
