@@ -54,17 +54,57 @@ namespace Calculadora
 
         private void btnExercicio8_Click(object sender, EventArgs e)
         {
-            //new Exercicio8().Show();
+            new Exercicio8().Show();
         }
 
         private void btnExercicio9_Click(object sender, EventArgs e)
         {
-            //new Exercicio9().Show();
+            new Exercicio9().Show();
         }
 
         private void btnExercicio10_Click(object sender, EventArgs e)
         {
-            //new Exercicio10().Show();
+            new Exercicio10().Show();
+        }
+
+        private void btnExercicio11_Click(object sender, EventArgs e)
+        {
+           new Exercicio11().Show();
+        }
+
+        private void btnExercicio12_Click(object sender, EventArgs e)
+        {
+            //new Exercicio12().Show();
+        }
+
+        private void btnExercicio13_Click(object sender, EventArgs e)
+        {
+            //new Exercicio13().Show();
+        }
+
+        private void btnExercicio14_Click(object sender, EventArgs e)
+        {
+            //new Exercicio14().Show();
+        }
+
+        private void btnExercicio15_Click(object sender, EventArgs e)
+        {
+            //new Exercicio15().Show();
+        }
+
+        private void btnExercicio16_Click(object sender, EventArgs e)
+        {
+            //new Exercicio16().Show();
+        }
+
+        private void btnExercicio17_Click(object sender, EventArgs e)
+        {
+            //new Exercicio17().Show();
+        }
+
+        private void btnExercicio18_Click(object sender, EventArgs e)
+        {
+            //new Exercicio18().Show();
         }
     }
 }
