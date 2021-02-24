@@ -74,12 +74,12 @@ namespace Calculadora
 
         private void btnExercicio12_Click(object sender, EventArgs e)
         {
-            //new Exercicio12().Show();
+            new Exercicio12().Show();
         }
 
         private void btnExercicio13_Click(object sender, EventArgs e)
         {
-            //new Exercicio13().Show();
+            new Exercicio13().Show();
         }
 
         private void btnExercicio14_Click(object sender, EventArgs e)
