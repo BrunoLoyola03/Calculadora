@@ -99,7 +99,7 @@ namespace Calculadora
 
         private void btnExercicio17_Click(object sender, EventArgs e)
         {
-            //new Exercicio17().Show();
+            new Exercicio17().Show();
         }
 
         private void btnExercicio18_Click(object sender, EventArgs e)
