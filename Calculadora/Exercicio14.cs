@@ -16,5 +16,24 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+        private int Peso()
+        {
+            return int.Parse(txtPeso.Text);
+        }
+        private int Excesso()
+        {
+            if (Peso() > 50)
+            {
+                return Peso() - 50;
+            }
+            else
+            {
+                return Peso() * 0;
+            }
+        }
+        private void btnCalcular_Click(object sender, EventArgs e)
+        {
+            txtMulta.Text = (Excesso() * 4).ToString();
+        }
     }
 }

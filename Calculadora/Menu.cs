@@ -84,7 +84,7 @@ namespace Calculadora
 
         private void btnExercicio14_Click(object sender, EventArgs e)
         {
-            //new Exercicio14().Show();
+            new Exercicio14().Show();
         }
 
         private void btnExercicio15_Click(object sender, EventArgs e)
